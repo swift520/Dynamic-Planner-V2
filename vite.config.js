@@ -23,7 +23,7 @@ export default defineConfig({
       ],
     }),
   ],
-  base:'/Dynamic-Planner-V2', 
+  base:'/Dynamic-Planner-V2',  
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
